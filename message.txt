@@ -1,0 +1,3 @@
+from: hebrides@smgmobile.com
+Hi, this is a text message, just for you :-).
+.
