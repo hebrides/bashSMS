@@ -2,8 +2,8 @@ bashSMS
 =======
 
 This is a simple bash script for sending SMS texts. You'll need sendmail. The providers listed are for the US. 
-```#!/bin/bash
-
+```
+#!/bin/bash
 providers="@email.uscc.net
 @message.alltel.com
 @messaging.sprintpcs.com
