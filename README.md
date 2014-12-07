@@ -9,7 +9,7 @@ Use it like this:
 ```
 ./sendSMS.sh 5555555555 < message.txt
 ```
-*5555555555* is the phone number to which you're texting. *message.txt* contains your message. See the file for formatting.
+*5555555555* is the phone number that you're texting. *message.txt* contains your message. See the file for formatting.
 
 Script is below. The providers listed are for the US. The script tries every provider. 
 ```
