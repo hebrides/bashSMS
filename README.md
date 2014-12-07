@@ -1,7 +1,7 @@
 bashSMS
 =======
 
-This is a simple bash script for sending SMS texts. You'll need sendmail: 
+This is a simple bash script for sending SMS texts. To use it, you'll need the *sendmail* command: 
 ```
 sudo apt-get install sendmail
 ```
