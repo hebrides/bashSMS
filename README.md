@@ -9,9 +9,14 @@ Use it like this:
 ```
 ./sendSMS.sh 5555555555 < message.txt
 ```
-*5555555555* is the phone number of the person whom you're texting. *message.txt* contains your message. See the file for formatting.
+*5555555555* is the phone number of the person whom you're texting. *message.txt* contains your message. Format *message.txt* without a `subject:` line.
+```
+from: hebrides@smgmobile.com
+Hi, this is a text message, just for you :-).
+.
+```
 
-Script is below. The providers listed are for the US. The script tries every provider. 
+Shell script is below. The providers listed are for the US. The script tries every provider. 
 ```
 #!/bin/bash
 providers="@email.uscc.net
